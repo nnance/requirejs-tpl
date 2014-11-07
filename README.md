@@ -1,3 +1,7 @@
+requirejs-tpl-bower
+===================
+This is a Bower compatible AMD loader for UnderscoreJS micro-templates which can be used as a drop-in replacement to [ZeeAgency/requirejs-tpl](https://github.com/ZeeAgency/requirejs-tpl)
+
 # AMD Template Plugin
 
 Uses Underscore.js micro-templates implementation.
@@ -33,7 +37,7 @@ Ever have a hard time to debug a template with a console giving no error line ? 
 
 If you can/want avoid dynamic loading, the plugin can be excluded from the build, at least reduced to 64 bytes (empty module) instead of 2Ko. Can't be bad.
 
-Oh and of course, templates can be minified… 
+Oh and of course, templates can be minified…
 
 ## Support
 
